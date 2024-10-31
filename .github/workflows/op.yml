@@ -107,7 +107,7 @@ jobs:
         
     - name: 添加玩客云
       run: |
-        git clone https://shiyu1314:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/shiyu1314/openwrt-onecloud-kernel.git openwrt/target/linux/amlogic
+        git clone https://lenngendd:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/shiyu1314/openwrt-onecloud-kernel.git openwrt/target/linux/amlogic
 
     - name: 加载自定义配置
       run: |
